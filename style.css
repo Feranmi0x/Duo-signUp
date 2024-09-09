@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Din";
+    src: url(din-round-bold.ttf)
+}
+@font-face {
+    font-family: "Din-light";
+    src: url(din-round-light.ttf)
+}
+@font-face {
+    font-family: "Din-medium";
+    src: url(FontsFree-Net-DIN-Medium.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Din, sans-serif;
+    line-height: 1.2rem;
+}
+
+.header {
+    color: #000000c9;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.25rem;
+}
+
+.mainPage {
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 20px 5px 20px;
+   
+}
+
+input {
+    display: flex;
+    font-size: 1.1rem;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.065);
+    border: 2px solid rgba(128, 128, 128, 0.167);
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.input-icon .fa-solid {
+    position: absolute;
+    padding: 12px;
+    right: 30px;
+}
+
+.fa-brands {
+    font-size: 1.2rem;
+    color: #3b5998;
+    margin-right: 5px;
+}
+
+.ageP {
+    width: 100%;
+    font-family: Din-medium, sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    color: rgba(0, 0, 0, 0.506)
+}
+
+a {
+    color: #49c0f8;
+    text-decoration: none;
+    font-family: Din, sans-serif;
+    font-size: 0.8rem;
+}
+.bluespan {
+    color: #49c0f8;
+    font-family: Din;
+    font-size: 0.9rem;
+}
+
+.submit {
+    background-color: #49c0f8;
+    border-bottom: 3.5px solid #2e93c2;
+    color: white;
+    font-family: Din, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 0.8rem;
+}
+
+.facebook {
+    background-color: white;
+    border: 2px solid rgba(128, 128, 128, 0.216);
+    border-bottom: 3.5px solid rgba(128, 128, 128, 0.2);
+    color: #3b5998;
+    font-family: Din, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 0.85rem;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.createBtn {
+    background-color: #49c0f8;
+    border: 2px solid #49c0f8;
+    border-bottom: 3.5px solid #3b97c2;
+    color: white;
+    font-family: Din, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 0.85rem;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: rgba(128, 128, 128, 0.662);
+    font-family: Din-medium, sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 1rem;
+}
+
+
+
+.linebreak {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.167);
+}
+
+.or {
+    font-family: Din-medium, sans-serif;
+    margin: 0 5px 0 5px;
+    color: rgba(128, 128, 128, 0.7);
+    font-size: 0.8rem;
+}
+
+.buttomText {
+    text-align: center;
+    color: rgba(128, 128, 128, 0.512);
+    font-family: Din-medium, sans-serif;
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+}
+
+.buttomTextS {
+    font-family: Din, sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.login {
+    color: #000000c9;
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 10px;
+}
